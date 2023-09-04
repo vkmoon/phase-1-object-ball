@@ -1,6 +1,5 @@
-console.log('Simple debugging example running.')
-debugger
-
-let x = 99
-debugger
-console.log(x)
+function homeTeamName() {
+    let object = gameObject();
+    return object["home"]["teamName"];
+}
+homeTeamName()
